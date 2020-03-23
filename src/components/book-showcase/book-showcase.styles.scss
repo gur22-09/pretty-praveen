@@ -1,0 +1,39 @@
+.book-showcase{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 1000px;
+    margin: 30px 20px;
+    padding-top: 100px;
+
+
+    .book-display{
+        background-image: url('http://www.preetypraveen.com/wp-content/uploads/2020/01/1579086632-237x300.png');
+        height: 45vh;
+        width: 500px;
+        display: flex;
+        flex-direction: column;
+        background-position: center;
+        background-repeat: no-repeat;
+        position: relative;
+        left: 60px;
+        
+    
+    }
+    .book-showcase--text{
+        display: flex;
+        flex-direction: column;
+        width: 800px;
+        position: relative;
+        top:60px;
+        left:20%;
+        
+     
+    }
+}
+.conatiner{
+    text-align: center;
+
+    
+}
+

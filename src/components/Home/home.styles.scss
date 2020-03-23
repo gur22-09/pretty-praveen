@@ -1,0 +1,49 @@
+.home{
+    background-image: url(https://images.pexels.com/photos/2395249/pexels-photo-2395249.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    text-align: center;
+    
+
+
+    .title{
+        position: absolute;
+        top:50%;
+        width: 100%;
+        text-align: center;
+        margin-top:35px;
+        line-height: 23px;
+        font-family: 'Satisfy',cursive;
+        font-size: 3rem;
+        font-weight: 100;
+        
+
+
+    }
+    .icon-holder{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        margin-top:35px;
+
+
+      .links{
+          padding: 10px 5px;
+          cursor: pointer;
+
+          &:hover{
+              transform: scale(1.1);
+              transition: transform 0.5s ease-out;
+          }
+      }  
+    }
+}
+
+
+a{
+    color: inherit;
+    
+}

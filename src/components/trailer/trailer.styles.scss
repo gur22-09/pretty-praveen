@@ -1,0 +1,16 @@
+.book-trailer{
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align:center;
+    padding-top: 90px;
+
+
+    .title{
+        font-family: 'Allura', cursive;
+        font-size: 3.5rem;
+        text-transform: capitalize;
+        letter-spacing: 4px;
+    }
+}

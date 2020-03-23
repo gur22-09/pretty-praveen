@@ -1,0 +1,56 @@
+.header {
+    height:100px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 25px;
+    background-color:#f5f0f0cc;
+    margin: 0;
+    padding: 0;
+    border: 0;
+    vertical-align: baseline;
+    position: sticky;
+    top: 0px;
+    
+    
+  
+    .logo-container {
+        
+         width: 195px;
+         height: 28px;
+         background: url(http://www.preetypraveen.com/wp-content/uploads/2020/01/logo-1.png) no-repeat center center;
+         background-size: 195px 28px;
+         position: relative;
+         top: 36px;
+         left:30px
+         
+        
+    }
+  
+    .options {
+      width: 50%;
+      height: 100%;
+      display: flex;
+      align-items: center;
+      justify-content: flex-end;
+  
+      .option {
+        padding: 10px 15px;
+        cursor: pointer;
+        
+        &:hover{
+          color: orange;
+          border-bottom:1px solid #F89406 ;
+          transition: color 0.5s;
+          
+        }
+          
+       }
+
+    }
+  }
+
+a{
+  text-decoration: none;
+  font-weight: 500;
+}  

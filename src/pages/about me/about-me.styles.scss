@@ -1,0 +1,79 @@
+.about-me{
+    
+    background-image: url("http://www.preetypraveen.com/wp-content/uploads/2020/01/about.jpg");
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+    text-align: center;
+
+    .title{
+        font-family: 'Allura', cursive;
+        font-size: 3.5rem;
+        text-transform: capitalize;
+        letter-spacing: 4px;
+        position: relative;
+        top:120px;
+
+    }
+
+}
+
+
+.small-text{
+    position: absolute;
+    top: 50%;
+    margin-top: 35px;
+    color: #000;
+    width: 100%;
+    font-family: 'Satisfy', cursive;
+    text-align: center;
+    font-size: 23px;
+    line-height: 23px;
+    z-index: 20;
+}
+
+.about-me-text{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 80vw;
+    margin: 30px auto;
+
+}
+
+.about-me-image{
+    width: 30vw;
+    display: flex;
+    flex-direction: column;
+    background-image:url(http://www.preetypraveen.com/wp-content/uploads/2020/02/1I3A9147-min.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 80vh;
+}
+
+.about-me-stuff{
+    display: flex;
+    flex-direction: column;
+    width: 40vw;
+ 
+    blockquote{
+        font-weight: 400;
+        font-size: 1rem;
+        line-height: 28px;
+        color: #777777;
+        letter-spacing: 3px;
+        text-align: left;
+        
+    }
+
+    .line-header{
+        position: relative;
+        width: 30px;
+        height: 2px;
+        display: block;
+        background-color: #F89406;
+    }
+
+   
+}
