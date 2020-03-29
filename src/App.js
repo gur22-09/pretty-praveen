@@ -13,17 +13,8 @@ import {Route,Switch} from 'react-router-dom';
 
 
 class App extends React.Component{
-  constructor(){
-    super();
-  }
-
-
-
-
-
-
-
-  render(){
+ 
+render(){
     return (
       <div>
 
